@@ -1,0 +1,49 @@
+.movie-details {
+    background-color: #111111;
+}
+img {
+    width: 100%;
+    height: fit-content;
+}
+.back-image {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.md-container {
+    padding: 5px 20px 20px 20px;
+    color: white;
+    font-family: "Poppins", serif;
+}
+.md-container h1 {
+    margin: 8px;
+}
+.md-container p {
+    margin: 2px 8px 2px 8px;
+}
+.movie-plot {
+    margin: 8px;
+    color: #888888;
+}
+
+.buttons {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    height: 40px;
+    width: 45%;
+    background-color: yellow;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111111;
+    font-size: 14px;
+    font-weight: 600;
+}

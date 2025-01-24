@@ -1,0 +1,20 @@
+.carousel-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  background-color: #111111;
+  color: white;
+  border: none;
+  background: cover;
+}
+
+.carousel-caption {
+  font-family: "Poppins";
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
