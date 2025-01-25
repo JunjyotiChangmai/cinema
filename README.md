@@ -34,7 +34,7 @@ Project: CINEMA
 ## Features Implemented
 
 - **Movie Search Functionality:** Search for movies by title and keywords.
-- **Movie Details View:** View detailed information about selected movies, including cast, synopsis, and ratings.
+- **Movie Details View:** View detailed information about selected movies.
 - **Favorite Movies Management:** Add and manage your favorite movies in a personalized list.
 - **Loading States and Error Handling:** User-friendly indicators for loading and error scenarios.
 - **Mobile Responsive:** Optimized exclusively for mobile devices.
@@ -43,8 +43,9 @@ Project: CINEMA
 
 ## Technologies Used
 
-- **Frontend:** React.js, Vite, Tailwind CSS
+- **Frontend:** React.js, Vite
 - **Deployment:** Vercel
+- **API:** https://www.omdbapi.com/
 - **Other Tools:**
   - Axios for API requests
 

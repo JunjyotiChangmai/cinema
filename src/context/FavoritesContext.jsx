@@ -14,7 +14,7 @@ export const FavoritesProvider = ({ children }) => {
   };
 
   const removeFavorite = (id) => {
-    const updatedFavorites = favorites.filter((movie) => movie.id !== id);
+    const updatedFavorites = favorites.filter((movie) => movie.imdbID !== id);
     setFavorites(updatedFavorites);
     localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
   };
