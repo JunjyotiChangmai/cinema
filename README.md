@@ -4,12 +4,12 @@ Project: CINEMA
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/JunjyotiChangmai/cinema
    ```
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd <project-directory>
+   cd cinema
    ```
 
 3. **Install Dependencies:**
