@@ -1,65 +1,65 @@
 .movie-s-card {
-    display: flex;
-    background-color: #111111;
-    border-radius: 15px;
-    width: 100%;
-    overflow: hidden;
+  display: flex;
+  background-color: #111111;
+  border-radius: 15px;
+  width: 100%;
+  overflow: hidden;
 }
-  
-  .image-s-container {
-    background-color: #111111;
-    width: 50%;
-    position: relative;
-    border-radius: 15px;
-  }
 
-  .image-s-container img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-  }
-  
-  .s-content {
-    width: 50%;
-    padding: 15px;
-  }
-  
-  .s-content h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0 0 10px;
-  }
-  
-  .s-rating {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  
-  .s-rating span {
-    margin-right: 5px;
-  }
-  
-  .s-stars {
-    color: #ffc107;
-  }
-  
-  .s-genre {
-    font-size: 12px;
-    color: #ccc;
-    margin-bottom: 10px;
-  }
-  
-  .s-description {
-    font-size: 12px;
-    line-height: 1.5;
-    color: #aaa;
-    height: 50px;
-    overflow: hidden;
-  }
+.image-s-container {
+  background-color: #111111;
+  width: 50%;
+  position: relative;
+  border-radius: 15px;
+}
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
+.image-s-container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.s-content {
+  width: 50%;
+  padding: 15px;
+}
+
+.s-content h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.s-rating {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.s-rating span {
+  margin-right: 5px;
+}
+
+.s-stars {
+  color: #ffc107;
+}
+
+.s-genre {
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.s-description {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #aaa;
+  height: 50px;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

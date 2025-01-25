@@ -1,7 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './FeaturedCarousel.css';
-// import "../styles/styles.css";
 
 const FeaturedCarousel = ({ movies }) => {
   const settings = {

@@ -1,7 +1,7 @@
 .movie-card {
   background-color: #111111;
   border-radius: 15px;
-  width: 85%;
+  width: 90%;
   overflow: hidden;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .content {
-  padding: 15px;
+  padding: 15px 15px 15px 0px;
 }
 
 .content h3 {

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { fetchMovies } from '../../api/api';
-// import MovieCard from '../../components/movieCard/MovieCard';
 import MovieCardSearch from "../../components/movieCardSearch/MovieCardSearch"
 import "../searchPage/SearchPage.css"
+import SearchLoading from '../../components/loading/SearchLoading';
 
 const SearchPage = () => {
   const [query, setQuery] = useState('');
@@ -30,16 +30,15 @@ const SearchPage = () => {
   return (
     <div className='search-container'>
       <div className="search-box">
-        <i className="fa-solid fa-magnifying-glass"/>
+        <i className="fa-solid fa-magnifying-glass" />
         <input type="text" placeholder="Search" value={query} onChange={(e) => setQuery(e.target.value)} />
       </div>
-      {loading && <p>Loading...</p>}
-      <div className='movie-grid'>
+      {(loading) ? <SearchLoading /> : (<div className='movie-grid'>
         {results.map((movie) => (
-          // <MovieCard key={movie.imdbID} movie={movie} />
-          <MovieCardSearch key={movie.imdbID} movie={movie}/>
+          <MovieCardSearch key={movie.imdbID} movie={movie} />
         ))}
-      </div>
+      </div>)
+      }
     </div>
   );
 };

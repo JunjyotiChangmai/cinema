@@ -1,0 +1,68 @@
+.sl-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sl-card {
+    display: flex;
+    background-color: #111111;
+    border-radius: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sl-img {
+    background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    width: 50%;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.sl-content {
+    width: 50%;
+    padding: 15px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sl-title {
+    height: 16px;
+    width: 100%;
+    background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+.sl-rating {
+    height: 16px;
+    width: 30%;
+    background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+.sl-genre {
+    height: 16px;
+    width: 80%;
+    background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+.sl-dis-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sl-description {
+    height: 16px;
+    width: 100%;
+    background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}

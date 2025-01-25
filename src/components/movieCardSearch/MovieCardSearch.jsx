@@ -32,9 +32,6 @@ const MovieCardSearch = ({movie}) => {
         <h3>{res.Title}</h3>
         <div className="s-rating">
           <span>{res.imdbRating}</span>
-          <span className="s-stars">
-            &#9733;&#9733;&#9733;&#9733;&#9734;
-          </span>
         </div>
         <p className="s-genre">{res.Genre}</p>
         <p className="s-description">{res.Plot}</p>

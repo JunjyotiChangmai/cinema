@@ -4,7 +4,7 @@ import Navbar from './components/navBar/Navbar';
 import HomePage from './pages/homePage/HomePage';
 import SearchPage from './pages/searchPage/SearchPage';
 import MovieDetailsPage from './pages/movieDetailsPage/MovieDetailsPage';
-import FavoritesPage from './pages/FavoritesPage';
+import FavoritesPage from './pages/favoritesPage/FavoritesPage';
 import { FavoritesProvider } from './context/FavoritesContext';
 
 const App = () => (
