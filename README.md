@@ -1,5 +1,3 @@
-Project: CINEMA
-
 ## Project Setup Instructions
 
 1. **Clone the Repository:**
